@@ -3,8 +3,10 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1">
   <title>Home</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
   <link rel="icon" href="assets/images/favicon/title-icon.png">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/slick-theme.css">
@@ -12,8 +14,8 @@
   <link rel="stylesheet" href="assets/css/aos.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.0.7/countUp.min.js"></script>>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
 </head>
 
 <body>
@@ -23,6 +25,7 @@
         <div class="nav-title">
           <h2>Presento</h2><span>.</span>
         </div>
+        <button class="toggle-button" type="button" name="button"><i class="fas fa-bars"></i></button>
         <div class="nav-menu">
           <ul>
             <li><a href="#">Home</a></li>
@@ -33,9 +36,7 @@
             <li><a href="#contact-us">Contact-us</a></li>
           </ul>
         </div>
-        <div class="nav-button">
-          <button type="button" name="button">Get started</button>
-        </div>
+
       </div>
     </div>
   </header>
@@ -111,9 +112,7 @@
         </div>
 
       </div>
-      <a id="scrolltotop" href="index.html">
-        <i class="fas fa-arrow-up"></i>
-      </a>
+
     </div>
   </div>
 
@@ -146,13 +145,10 @@
             <h3>Corporis voluptates sit</h3>
             <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
           </div>
-
         </div>
       </div>
     </div>
   </section>
-  <br>
-
   <section class="counter">
     <div class="container">
       <div class="counter-div" data-aos="fade-up" data-aos-duration="1000">
@@ -190,10 +186,6 @@
   <br>
   <br>
   <br>
-  <br>
-  <br>
-  <br>
-
   <section class="Modisit-info">
     <div class="container">
       <div class="Modisit-info-div" data-aos="fade-up" data-aos-duration="1000">
@@ -270,7 +262,7 @@
             <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
           </div>
         </div>
-        <div class="Services-box"data-aos="fade-up" data-aos-duration="1000">
+        <div class="Services-box" data-aos="fade-up" data-aos-duration="1000">
           <div class="Services-icon">
             <i class="fas fa-tv"></i>
           </div>
@@ -279,7 +271,7 @@
             <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
           </div>
         </div>
-        <div class="Services-box"data-aos="fade-up" data-aos-duration="1000">
+        <div class="Services-box" data-aos="fade-up" data-aos-duration="1000">
           <div class="Services-icon">
             <i class="fas fa-tv"></i>
           </div>
@@ -288,7 +280,7 @@
             <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
           </div>
         </div>
-        <div class="Services-box"data-aos="fade-up" data-aos-duration="1000">
+        <div class="Services-box" data-aos="fade-up" data-aos-duration="1000">
           <div class="Services-icon">
             <i class="fas fa-tv"></i>
           </div>
@@ -297,7 +289,7 @@
             <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
           </div>
         </div>
-        <div class="Services-box"data-aos="fade-up" data-aos-duration="1000">
+        <div class="Services-box" data-aos="fade-up" data-aos-duration="1000">
           <div class="Services-icon">
             <i class="fas fa-tv"></i>
           </div>
@@ -306,7 +298,7 @@
             <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
           </div>
         </div>
-        <div class="Services-box"data-aos="fade-up" data-aos-duration="1000">
+        <div class="Services-box" data-aos="fade-up" data-aos-duration="1000">
           <div class="Services-icon">
             <i class="fas fa-tv"></i>
           </div>
@@ -322,16 +314,16 @@
   <br>
   <section id="Portfolio">
     <div class="container">
-      <div class="heading1" data-aos="fade-up" data-aos-duration="1000">
+      <div class="heading-contact" data-aos="fade-up" data-aos-duration="1000">
         <h2>PORTFOLIO</h2>
         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
       </div>
       <div class="filter" data-aos="fade-up" data-aos-duration="1000">
         <ul>
-          <li> <a href="#" style="background: crimson;">ALL</a> </li>
-          <li> <a href="#">APP</a> </li>
-          <li> <a href="#">CARD</a> </li>
-          <li> <a href="#">WEB</a> </li>
+          <li> <a href="#Portfolio">ALL</a> </li>
+          <li> <a href="#Portfolio">APP</a> </li>
+          <li> <a href="#Portfolio">CARD</a> </li>
+          <li> <a href="#Portfolio">WEB</a> </li>
         </ul>
       </div>
       <div class="Portfolio-div" data-aos="zoom-in" data-aos-duration="1000">
@@ -477,7 +469,7 @@
   <br>
   <div class="testimonials">
     <div class="container">
-      <div class="heading1" data-aos="fade-up" data-aos-duration="1000">
+      <div class="heading-contact" data-aos="fade-up" data-aos-duration="1000">
         <h2>TESTIMONIALS</h2>
         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
       </div>
@@ -540,9 +532,7 @@
       </div>
     </div>
     <br>
-    <br>
-    <br>
-    <br>
+
     <section class="pricing">
       <div class="container">
         <div class="heading2" data-aos="fade-up" data-aos-duration="1000">
@@ -603,26 +593,22 @@
     </section>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-
     <div class="questionare">
       <div class="container">
-        <div class="heading1"data-aos="fade-up" data-aos-duration="1000">
+        <div class="heading1" data-aos="fade-up" data-aos-duration="1000">
           <h2>FREQUENTLY ASKED QUESTIONS</h2>
         </div>
         <div class="questionare-div">
 
-          <div class="col1"data-aos="fade-up" data-aos-duration="1000">
+          <div class="col1" data-aos="fade-up" data-aos-duration="1000">
             <div class="col1-content">
               <a href="#">Non consectetur a erat nam at lectus urna duis?</a>
             </div>
-            <div class="col1-icon"data-aos="fade-up" data-aos-duration="1000">
+            <div class="col1-icon" data-aos="fade-up" data-aos-duration="1000">
               <i class="fas fa-chevron-down"></i>
             </div>
           </div>
-          <div class="col1"data-aos="fade-up" data-aos-duration="1000">
+          <div class="col1" data-aos="fade-up" data-aos-duration="1000">
             <div class="col1-content">
               <a href="#">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</a>
             </div>
@@ -630,7 +616,7 @@
               <i class="fas fa-chevron-down"></i>
             </div>
           </div>
-          <div class="col1"data-aos="fade-up" data-aos-duration="1000">
+          <div class="col1" data-aos="fade-up" data-aos-duration="1000">
             <div class="col1-content">
               <a href="#">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?</a>
             </div>
@@ -638,7 +624,7 @@
               <i class="fas fa-chevron-down"></i>
             </div>
           </div>
-          <div class="col1"data-aos="fade-up" data-aos-duration="1000">
+          <div class="col1" data-aos="fade-up" data-aos-duration="1000">
             <div class="col1-content">
               <a href="#">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</a>
             </div>
@@ -646,7 +632,7 @@
               <i class="fas fa-chevron-down"></i>
             </div>
           </div>
-          <div class="col1"data-aos="fade-up" data-aos-duration="1000">
+          <div class="col1" data-aos="fade-up" data-aos-duration="1000">
             <div class="col1-content">
               <a href="#">Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</a>
             </div>
@@ -654,7 +640,7 @@
               <i class="fas fa-chevron-down"></i>
             </div>
           </div>
-          <div class="col1"data-aos="fade-up" data-aos-duration="1000">
+          <div class="col1" data-aos="fade-up" data-aos-duration="1000">
             <div class="col1-content">
               <a href="#">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?</a>
             </div>
@@ -669,8 +655,6 @@
     </div>
     <br>
     <br>
-    <br>
-    <br>
 
     <div id="team">
       <div class="container">
@@ -678,7 +662,7 @@
           <h2>TEAM</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
         </div>
-        <div class="team-div"data-aos="zoom-in" data-aos-duration="1000">
+        <div class="team-div" data-aos="zoom-in" data-aos-duration="1000">
           <div class="teambox">
             <div class="team-image">
               <img src="assets/images/team-1.jpg" alt="">
@@ -747,13 +731,10 @@
     <br>
     <div id="contact-us">
       <div class="container">
-        <div class="heading1">
+        <div class="heading-contact">
           <h2>CONTACT</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea</p>
         </div>
-        <br>
-
-
         <div class="contact-div">
           <div class="left-side">
             <div class="address">
@@ -791,8 +772,6 @@
         </div>
       </div>
     </div>
-    <br>
-    <br>
     <section class="footer" style="background:#1b1b1b;">
       <div class="container">
         <div class="footer-div">
@@ -887,11 +866,14 @@
       </div>
 
     </footer>
-
-    <script src="assets/js/bootstrap.min.js"></script>
+    <a class="back-to-top d-flex align-items-center justify-content-center active" href="#">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/aos.js"></script>
     <script src="assets/js/slick.js"></script>
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/main.js"></script>
+
     <script type="text/javascript">
       $(".counter-number").counterUp({
         delay: 5,
