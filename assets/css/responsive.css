@@ -31,8 +31,14 @@ font-size: 3rem;
   }
   .Home-section{
     background-position: center;
-    object-fit: fill;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 40rem;
     width: 100%;
+    background: #57578e7d;
+    background-blend-mode:multiply;
+    margin-top: 5rem;
   }
   .Home-section-div {
       max-width: 100%;
